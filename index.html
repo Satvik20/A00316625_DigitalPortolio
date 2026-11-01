@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a25">
+  <meta name="description" content="Nagasai Chintalapati — AI-focused software engineering student at TUS, with internship experience in AI workflows and quality engineering.">
+  <title>Nagasai Chintalapati — AI & Software Engineering</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Nagasai Chintalapati, home">
+        <span class="brand-mark" aria-hidden="true">NC</span>
+        <span class="brand-name">Nagasai Chintalapati<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        <span class="menu-label">Menu</span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="storyboard.html">Pitch storyboard <span aria-hidden="true">↗</span></a>
+        <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Software Design · AI & Cloud · TUS</p>
+        <h1 id="hero-title">Hi, I’m<br>Nagasai.<br><span>I make useful<br>things work better.</span></h1>
+        <p class="hero-intro">I’m studying software design at TUS and learning by building real things with real teams. I like figuring out how things work, testing what I make, and making the next version a little better. Away from my laptop: football, badminton, cars, and finding good food while travelling.</p>
+        <div class="hero-actions">
+          <a class="button button-accent" href="#work">See what I’ve been building <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#about">A little more about me <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-proof" aria-label="A few things about me">
+          <div><strong>LEARNING</strong><span>Software Design, AI & Cloud<br>at TUS</span></div>
+          <div><strong>MAKING</strong><span>AI workflows and<br>dependable software</span></div>
+          <div><strong>OFF THE CLOCK</strong><span>Travel, sport, cars<br>and Cooper</span></div>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <span class="portrait-stamp">A LITTLE INTRODUCTION</span>
+        <figure>
+          <img src="assets/nagasai-beach-portrait.jpg" alt="Nagasai standing by the sea." width="617" height="726" fetchpriority="high">
+          <figcaption>A personal snapshot from the seaside.</figcaption>
+        </figure>
+        <div class="portrait-note"><span>OFF THE CLOCK</span><strong>Travel, football,<br>and Cooper <span aria-hidden="true">✳</span></strong></div>
+      </div>
+      <a class="scroll-cue" href="#work"><span aria-hidden="true">↓</span> Come have a look around</a>
+    </section>
+
+    <section class="intro-band" aria-label="Professional focus">
+      <div class="section-shell intro-band-inner">
+        <p>THE THREAD THROUGH MY WORK</p>
+        <h2>Build with curiosity.<br><span>Ship with care.</span></h2>
+        <p class="intro-band-copy">From AI-assisted support to resilient end-to-end tests, I’m interested in engineering that saves time without asking people to trust a black box.</p>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED WORK <span class="section-number">01 / 04</span></p><h2 id="work-title">Engineering with<br>people in the loop.</h2></div>
+        <p class="section-summary">A closer look at the work I contributed to during my industry placements. The diagrams below are original, simplified illustrations—not screenshots or internal artifacts.</p>
+      </div>
+
+      <article class="case-card case-card-dark">
+        <div class="case-visual visual-jira" aria-label="Illustrative flow from a Jira comment to a Python webhook and a triage response">
+          <div class="visual-header"><span>SUPPORT FLOW</span><span>01 — HPE</span></div>
+          <div class="flow-stack">
+            <div class="flow-node"><span class="node-symbol">J</span><span><b>Jira comment</b><small>Question or bug report</small></span></div>
+            <span class="flow-connector" aria-hidden="true">↓</span>
+            <div class="flow-node node-highlight"><span class="node-symbol">Py</span><span><b>Python webhook</b><small>Context-aware response</small></span></div>
+            <span class="flow-connector" aria-hidden="true">↓</span>
+            <div class="flow-node"><span class="node-symbol">✓</span><span><b>Response + triage</b></span></div>
+          </div>
+        </div>
+        <div class="case-copy">
+          <p class="case-kicker">01 / AI-ASSISTED SUPPORT · HPE</p>
+          <h3>A faster first response<br>for engineering teams.</h3>
+          <p>During my Software AI Engineer internship, I developed a Jira assistant using Python webhooks to respond to comments and help triage bugs. The goal was practical: give teams a useful response where the conversation already happens.</p>
+          <ul class="tag-list" aria-label="Technologies and methods"><li>Python</li><li>Webhooks</li><li>Jira</li><li>AI-assisted support</li></ul>
+          <p class="case-reflection"><strong>What I learned</strong> An assistant is most useful when it supports a clear workflow—not when it obscures who is responsible for the next action.</p>
+        </div>
+      </article>
+
+      <article class="case-card case-card-reverse">
+        <div class="case-visual visual-reliability" aria-label="Illustrative self-healing test sequence from a locator failure through recovery and a reviewed pull request">
+          <div class="visual-header"><span>TEST RELIABILITY</span><span>02 — HPE</span></div>
+          <div class="reliability-track">
+            <div class="track-step"><span class="track-dot dot-alert">!</span><b>Locator fails</b><small>Unexpected UI change</small></div>
+            <span class="track-line" aria-hidden="true"></span>
+            <div class="track-step"><span class="track-dot">↻</span><b>Try recovery</b><small>Dynamic fix attempt</small></div>
+            <span class="track-line" aria-hidden="true"></span>
+            <div class="track-step"><span class="track-dot dot-success">✓</span><b>Rerun + review</b><small>Open PR on recovery</small></div>
+          </div>
+          <div class="log-snippet" aria-label="Example verification sequence">
+            <span>test.status</span><span class="log-muted">locator_not_found</span>
+            <span>recovery.attempt</span><span class="log-warn">dynamic_candidate</span>
+            <span>verification</span><span class="log-good">rerun_before_pull_request</span>
+          </div>
+          <p class="visual-footnote">Concept diagram · synthetic labels only</p>
+        </div>
+        <div class="case-copy">
+          <p class="case-kicker">02 / QUALITY ENGINEERING · HPE</p>
+          <h3>Automation that earns<br>its second chance.</h3>
+          <p>I designed a self-healing test flow: when a locator fails, the framework attempts a dynamic fix, reruns the test, and opens a pull request only after successful recovery. I also automated cluster end-to-end runs, investigated flaky tests, flagged critical defects, and used LLMs for debugging insights.</p>
+          <ul class="tag-list" aria-label="Technologies and methods"><li>Jenkins</li><li>Test automation</li><li>Cluster E2E</li><li>Flaky-test investigation</li></ul>
+          <p class="case-reflection"><strong>My takeaway</strong> Verify automation before relying on it. A suggested repair is not a successful repair until a rerun confirms it.</p>
+        </div>
+      </article>
+
+      <article class="case-card case-card-ericsson">
+        <div class="case-visual visual-toolchain" aria-label="Illustration of tools used to help integrate AI workflows at Ericsson">
+          <div class="visual-header"><span>AI WORKFLOW TOOLCHAIN</span><span>03 — ERICSSON</span></div>
+          <div class="tool-ring">
+            <span class="tool-pill tool-center">AI<br>workflow</span>
+            <span class="tool-pill tool-one">LangChain</span><span class="tool-pill tool-two">Langflow</span>
+            <span class="tool-pill tool-three">Langfuse</span><span class="tool-pill tool-four">LangGraph</span>
+            <span class="tool-link link-one" aria-hidden="true"></span><span class="tool-link link-two" aria-hidden="true"></span>
+            <span class="tool-link link-three" aria-hidden="true"></span><span class="tool-link link-four" aria-hidden="true"></span>
+          </div>
+          <div class="tool-legend"><span><i class="legend-dot mint"></i>Integrate</span><span><i class="legend-dot amber"></i>Improve</span><span><i class="legend-dot blue"></i>Collaborate</span></div>
+        </div>
+        <div class="case-copy">
+          <p class="case-kicker">03 / AI WORKFLOW INTEGRATION · ERICSSON</p>
+          <h3>Learn the system.<br>Improve the pieces.</h3>
+          <p>As a Software Engineer Intern, I helped integrate AI workflows using LangChain, Langflow, Langfuse, and LangGraph. I resolved bugs, rewrote and optimised code, and strengthened my Python skills while working in a hybrid team.</p>
+          <ul class="tag-list" aria-label="Technologies and methods"><li>Python</li><li>LangChain</li><li>Langflow</li><li>Langfuse</li><li>LangGraph</li></ul>
+          <p class="case-reflection"><strong>Beyond the code</strong> Daily stand-ups helped me share progress, ask focused questions, and contribute reliably. I also mentored sixth-year students as they learned software engineering principles.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="content-section projects-section section-shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">PROJECT ARCHIVE <span class="section-number">02 / 04</span></p><h2 id="projects-title">Ideas made<br>into working things.</h2></div>
+        <div class="projects-intro"><p class="section-summary">A broader selection of my AI, software, mobile, and web projects—from industry work to university teams and independent builds.</p><a class="text-link text-link-dark" href="https://github.com/Satvik20" target="_blank" rel="noopener noreferrer">More on GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card project-card-featured"><div class="project-meta"><span>INDUSTRY · HPE</span><time datetime="2026-05">MAY — SEP 2026</time></div><h3>AI Self-Healing Locators</h3><p>Designed and validated an AI-powered approach to detect and resolve broken UI test locators. Integrated with GitHub Actions and HPE automation libraries, tested on the Morpheus platform, and explored Copilot-assisted self-healing to improve test reliability.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Python</li><li>GitHub Actions</li><li>UI test automation</li><li>Self-healing</li></ul></article>
+        <article class="project-card project-card-featured"><div class="project-meta"><span>INDUSTRY · HPE</span><time datetime="2026-01">JAN — MAY 2026</time></div><h3>Jira AI Assistant</h3><p>Developed an AI assistant for Jira defect triage and comment drafting. Connected Jira and Confluence context with TestRail, Jenkins, ELK, S3, RAG, SQLite, Redis, and Microsoft Teams approval workflows to support evidence-based responses.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Python</li><li>Jira</li><li>RAG</li><li>SQLite</li><li>Redis</li></ul></article>
+        <article class="project-card project-card-featured"><div class="project-meta"><span>INDUSTRY · HPE</span><time datetime="2026-02">FEB — APR 2026</time></div><h3>Jenkins Log Analyzer</h3><p>Built an intelligent platform to analyse Jenkins pipeline logs, identify likely root causes, and recommend solutions. Refactored the backend, improved the frontend, added chatbot functionality, integrated Prometheus monitoring, and introduced parallel tool execution.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Jenkins</li><li>LLMs</li><li>Prometheus</li><li>Parallel execution</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>TEAM PROJECT · TUS</span><time datetime="2025-09">SEP — DEC 2025</time></div><h3>Inventory Management System</h3><p>Worked on an inventory management system using an Agile development cycle. The team used Jira for sprint planning, GitHub for version control and reviews, Jenkins for continuous integration, and SonarQube for code-quality checks.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Java</li><li>JUnit</li><li>Jira</li><li>Jenkins</li><li>SonarQube</li></ul><p class="project-credit">Collaborative university project.</p></article>
+        <article class="project-card"><div class="project-meta"><span>NASA SPACE APPS · TUS</span><time datetime="2025-10">OCT 2025</time></div><h3>BioCosmos</h3><p>Created during the 2025 NASA Space Apps Challenge: a space-biology knowledge engine for discovering research and asking questions in natural language. The platform connected more than 600 NASA biology publications; I developed the Next.js frontend and Flask backend and integrated Gemini API querying.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Next.js</li><li>Flask</li><li>Gemini API</li><li>NASA open data</li></ul><p class="project-credit">Collaborative challenge project · completed in 48 hours.</p></article>
+        <article class="project-card"><div class="project-meta"><span>STUDENT PROJECT · TUS</span><time datetime="2025-09">SEP — OCT 2025</time></div><h3>Cricket Management System</h3><p>Developed a Python system for organising cricket teams, players, matches, and tournaments, including registration, scheduling, score tracking, and tournament progress.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Python</li><li>Data management</li><li>Application design</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>AI APPLICATION · ERICSSON</span><time datetime="2025-06">JUN 2025</time></div><h3>AI Agent Chatbot</h3><p>Built a Python web application exploring LLM agents and API integration. Connected Tavily and Groq for dynamic information retrieval and designed a responsive interface for context-aware interactions.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Python</li><li>LLMs</li><li>Tavily API</li><li>Groq</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>MOBILE · TUS</span><time datetime="2025-01">JAN — MAY 2025</time></div><h3>Car Maintenance App</h3><p>Developed an Android app for vehicle upkeep, with maintenance reminders, driving-behaviour analysis, GPS speed estimates, fuel-efficiency tracking, trip summaries, charts, and CSV log export.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Android Studio</li><li>Mobile development</li><li>GPS</li><li>Data visualisation</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>WEB · TUS</span><time datetime="2025-03">MAR — APR 2025</time></div><h3>API Web Application</h3><p>Created an API-powered web application demonstrating real-time data fetching, interactive content, responsive layouts, and a Node.js/Express backend.</p><ul class="tag-list" aria-label="Technologies and skills"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li><li>Express</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>DESKTOP APP · TUS</span><time datetime="2025-02">FEB — MAR 2025</time></div><h3>Cricket Scoreboard App</h3><p>Built a Python desktop scoreboard for entering team names, updating live scores, and resetting a match, with an interactive PyQt interface.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Python</li><li>PyQt5</li><li>Desktop UI</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>PERSONAL BUILD · TUS</span><time datetime="2024-11">NOV — DEC 2024</time></div><h3>Python Travel App</h3><p>Designed a travel companion app concept for trip planning, itinerary organisation, expense tracking, nearby-place discovery, weather, basic phrase translation, and packing checklists.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Python</li><li>GUI</li><li>Travel planning</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>DESKTOP APP · TUS</span><time datetime="2024-04">APR — MAY 2024</time></div><h3>Finance Calculator</h3><p>Developed an interactive calculator for interest, loan repayments, and savings growth, with inputs for financial values and calculated results.</p><ul class="tag-list" aria-label="Technologies and skills"><li>Java</li><li>HTML</li><li>Financial calculations</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>TEAM MOBILE GAME · TUS</span><time datetime="2024-03">MAR — MAY 2024</time></div><h3>Running Game · MIT App Inventor</h3><p>Collaborated in a three-person team. Contributed visual design, character and background artwork, colour choices, block coding, start/run controls, sound effects, and character movement.</p><ul class="tag-list" aria-label="Technologies and skills"><li>MIT App Inventor</li><li>Mobile applications</li><li>Visual design</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>WEB · TUS</span><time datetime="2024-02">FEB — MAR 2024</time></div><h3>Responsive Portfolio Website</h3><p>Designed a responsive portfolio website using HTML, CSS, and JavaScript, with a Java backend and database integration, tested on a local server.</p><ul class="tag-list" aria-label="Technologies and skills"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Java</li></ul></article>
+        <article class="project-card"><div class="project-meta"><span>WEB APP · TUS</span><time datetime="2023-10">OCT 2023</time></div><h3>BMI Calculator</h3><p>Created a responsive BMI calculator that accepts height and weight, validates inputs, calculates BMI, and presents category feedback.</p><ul class="tag-list" aria-label="Technologies and skills"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Input validation</li></ul></article>
+      </div>
+      <div class="projects-toggle-wrap"><button type="button" class="button button-outline projects-toggle" aria-controls="project-grid" aria-expanded="true" hidden>Show fewer projects</button></div>
+      <p class="projects-source-note">Project descriptions are based on the details provided for my LinkedIn project entries. Team contributions are described as collaborative work; no repositories or outcomes are claimed unless stated.</p>
+    </section>
+
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-shell">
+        <div class="section-heading section-heading-light">
+          <div><p class="eyebrow">EXPERIENCE & EDUCATION <span class="section-number">03 / 04</span></p><h2 id="experience-title">How I got here.</h2></div>
+          <p class="section-summary">An ongoing part-time quality assurance role alongside internship experience, degree study, and collaborative engineering work.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">JAN 2024 — PRESENT</div><div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content"><p class="timeline-org">NSTEP · PART-TIME</p><h3>Student Quality Assurance</h3><p>Part-time quality assurance work alongside my degree studies.</p><span class="timeline-note">Ongoing role</span></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">JAN — AUG 2026</div><div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content"><p class="timeline-org">HPE · INTERNSHIP</p><h3>Software AI Engineer Intern</h3><p>Worked across AI-assisted support and test reliability: Jira automation, Jenkins log analysis, resilient tests, cluster end-to-end runs, and defect investigation.</p><span class="timeline-note">Focus: useful automation, verified outcomes</span></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">MAY — SEPT 2025</div><div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content"><p class="timeline-org">ERICSSON · INTERNSHIP</p><h3>Software Engineer Intern</h3><p>Helped integrate AI workflows, resolved bugs, optimised code, collaborated in a hybrid team, and mentored sixth-year students in software engineering principles.</p><span class="timeline-note">Tools: LangChain · Langflow · Langfuse · LangGraph</span></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">EXPECTED 2027</div><div class="timeline-marker timeline-marker-last" aria-hidden="true"></div>
+            <div class="timeline-content"><p class="timeline-org">TUS · EDUCATION</p><h3>Honours degree studies in Software Design<br>AI & Cloud Computing</h3><p>Building practical foundations in software development, Python, Java, web development, AI workflows, and cloud computing.</p><span class="timeline-note">Technological University of the Shannon</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="about" aria-labelledby="about-title">
+      <div class="about-grid">
+        <div class="about-title"><p class="eyebrow">A LITTLE MORE ABOUT ME <span class="section-number">04 / 04</span></p><h2 id="about-title">Good engineering<br>is a team sport.</h2><p>I’m at my best when I can keep learning, work openly with others, and turn feedback into a better next iteration.</p></div>
+        <div class="about-detail">
+          <div class="interest-card"><span class="interest-number">01</span><div><h3>Football</h3><p>Shared goals, quick decisions, and coordinating with a team.</p></div><span class="interest-mark" aria-hidden="true">↗</span></div>
+          <div class="interest-card"><span class="interest-number">02</span><div><h3>Badminton</h3><p>Focus and adaptability—one point, and one adjustment, at a time.</p></div><span class="interest-mark" aria-hidden="true">↗</span></div>
+          <div class="interest-card"><span class="interest-number">03</span><div><h3>Car modification</h3><p>A personal interest in design choices, compatibility, and how engineering decisions affect a result. A hobby, not professional mechanic experience.</p></div><span class="interest-mark" aria-hidden="true">↗</span></div>
+          <div class="personal-gallery" aria-label="Personal photographs">
+            <figure><img src="assets/nagasai-steps-portrait.jpg" alt="Nagasai seated on a staircase in a large atrium." width="1097" height="1292" loading="lazy"><figcaption>Personal snapshot · not a workplace image</figcaption></figure>
+            <figure><img src="assets/nagasai-beach-portrait.jpg" alt="Nagasai standing by the sea." width="617" height="726" loading="lazy"><figcaption>At the seaside · personal snapshot</figcaption></figure>
+          </div>
+          <div class="life-stories" aria-label="Travel and life with Cooper">
+            <article class="life-card travel-card">
+              <div class="travel-photos" aria-label="Travel photographs">
+                <figure><img src="assets/IMG_5840.jpeg" alt="Nagasai choosing a personalised Barcelona football shirt in a team shop." width="1290" height="1111" loading="lazy"><figcaption>Football culture</figcaption></figure>
+                <figure><img src="assets/IMG_5841.jpeg" alt="Nagasai looking at a green-faced watch in its display case." width="1290" height="1457" loading="lazy"><figcaption>A day out</figcaption></figure>
+              </div>
+              <p class="life-label">OFF THE CLOCK · EXPLORING EUROPE</p>
+              <h3>New places, new plates.</h3>
+              <p>I love travelling around Europe and have visited several countries. I enjoy discovering the local food and culture—and experiencing the nightlife along the way.</p>
+            </article>
+            <article class="life-card dog-card">
+              <figure class="dog-photo"><img src="assets/IMG_5839.jpeg" alt="Cooper sitting on a sofa behind a birthday cake and dog treats." width="1290" height="1219" loading="lazy"><figcaption>Cooper · birthday celebrations</figcaption></figure>
+              <p class="life-label">MEET MY DOG</p>
+              <h3>Cooper, my sidekick.</h3>
+              <p>Cooper is nine years old and a Yorkshire Terrier–Jack Russell cross. He loves car rides and playing fetch. Cats, on the other hand, are not his favourites.</p>
+              <div class="dog-traits" aria-label="Cooper's favourite things"><span>Car rides</span><span>Fetch</span><span>Not cats</span></div>
+            </article>
+          </div>
+          <div class="skills-panel">
+            <h3>What I’m bringing to the team</h3>
+            <div class="skills-columns">
+              <div><p class="skill-label">BUILD</p><p>Python · Java · Web development · AI workflows</p></div>
+              <div><p class="skill-label">IMPROVE</p><p>Test automation · Bug investigation · Code optimisation · Verification</p></div>
+              <div><p class="skill-label">WORK TOGETHER</p><p>Clear updates · Focused questions · Feedback · Mentoring</p></div>
+            </div>
+            <p class="skills-note">Skills and tools shown here are based on the experience described in my storyboard; no proficiency levels or certifications are implied.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pitch-banner section-shell" aria-labelledby="pitch-title">
+      <div class="pitch-banner-content"><p class="eyebrow">THE STORY BEHIND THE INTRODUCTION</p><h2 id="pitch-title">Five parts.<br>One clear direction.</h2><a class="button button-light" href="storyboard.html">Open the accessible storyboard <span aria-hidden="true">↗</span></a></div>
+      <div class="pitch-clock" aria-label="Five parts, one conversation"><span class="clock-sub">FIVE PARTS<br>ONE CONVERSATION</span><div class="clock-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">NEXT STEP</p><h2 id="contact-title">Let’s build something<br><span>useful and dependable.</span></h2>
+      <p class="contact-copy">I’m looking toward graduate Software Engineering and AI Engineering opportunities. I’d welcome a conversation about how I can contribute.</p>
+      <div class="contact-links">
+        <a class="button button-outline" href="mailto:nagasai42006@gmail.com" aria-label="Send Nagasai an email">Email <span aria-hidden="true">↗</span></a>
+        <a class="button button-accent" href="https://www.linkedin.com/in/nagasai-chintalapati-652526271/" target="_blank" rel="noopener noreferrer" aria-label="Open Nagasai's LinkedIn profile in a new tab">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="button button-outline" href="https://github.com/Satvik20" target="_blank" rel="noopener noreferrer" aria-label="Open Nagasai's GitHub profile in a new tab">GitHub · @Satvik20 <span aria-hidden="true">↗</span></a>
+      </div>
+      <a class="text-link text-link-dark" href="storyboard.html">See how I introduce myself <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">NC</span><span class="brand-name">Nagasai Chintalapati<span class="brand-dot">.</span></span></a><p>AI & Software Engineering · TUS · 2027</p><a class="back-top" href="#top">Back to top ↑</a><small>Designed for local access · No external libraries or hosted assets</small></div>
+  </footer>
+</body>
+</html>
