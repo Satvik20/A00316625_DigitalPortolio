@@ -64,7 +64,7 @@ if (projectGrid && projectsToggle) {
 
 const videoPlayerContainer = document.querySelector("#video-player-container");
 
-const pitchVideoUrl = " https://youtu.be/Pu3K4jEaipc";
+const pitchVideoUrl = "https://youtu.be/Pu3K4jEaipc";
 
 if (videoPlayerContainer) {
   const youtubeMatch = pitchVideoUrl.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]+)/i);
