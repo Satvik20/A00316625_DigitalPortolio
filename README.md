@@ -2,7 +2,7 @@
 
 Personal portfolio for Nagasai Chintalapati, an AI-focused software engineering student at the Technological University of the Shannon (TUS).
 
-**Live site:** https://satvik20.github.io/A00316625_DigitalPortolio/
+**Live site:** https://satvik20.github.io/A00316625_DigitalPortfolio/
 
 ## Pages
 
